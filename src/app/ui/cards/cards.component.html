@@ -1,8 +1,9 @@
 <div class="card">
-    <img src="{{ product.thumbnail }}" class="card-img" alt={{product.title}}/>
-    <div class="card-body">
-      <h5 class="card-title">{{ product.title }}</h5>
-      <p class="card-text">{{ product.description }}</p>
-    </div>
+  <img ngSrc="{{ product.thumbnail }}"  class="card-img" alt={{product.title}} width="400" height="200"/>
+
+  <div class="card-body">
+    <h5 class="card-title">{{ product.title }}</h5>
+    <p class="card-text">{{ product.description }}</p>
+    <button  (click)=" emitEvent()">Details</button>
   </div>
-   
+</div>

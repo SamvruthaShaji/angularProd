@@ -1,0 +1,12 @@
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+ul>li:hover{
+    color: antiquewhite;
+    cursor: pointer;
+}
